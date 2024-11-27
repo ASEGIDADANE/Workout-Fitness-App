@@ -1,0 +1,41 @@
+name: workout_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.3 <4.0.0" # Make sure this is compatible with your Flutter SDK version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  device_preview: ^1.0.0  # Ensure you're using the correct version
+  flutter_lints: ^5.0.0
+  intl: ^0.19.0
+  flutter_rating_bar: ^4.0.1
+  simple_circular_progress_bar: ^1.0.2
+  flutter_calendar_carousel: ^2.4.4
+  timezone: ^0.10.0
+  carousel_slider: ^5.0.0
+  flutter_localizations:  # Include flutter_localizations dependency
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  # Specify custom assets for images
+  assets:
+    - assets/img/
+
+  # Specify custom fonts
+  # fonts:
+  #   - family: QuickSand
+  #     fonts:
+  #       - asset: fonts/QuickSand-Regular.ttf
+  #       - asset: fonts/QuickSand-Light.ttf
+  #         weight: 300
+  #       - asset: fonts/QuickSand-Medium.ttf
+  #         weight: 500
+  #       - asset: fonts/QuickSand-Bold.ttf
+  #         weight: 700
